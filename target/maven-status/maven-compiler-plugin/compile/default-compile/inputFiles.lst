@@ -1,0 +1,16 @@
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/domain/Role.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/Controller/MainController.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/Application.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/Controller/UserController.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/domain/dto/CaptchaResponseDto.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/service/UserService.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/domain/User.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/config/MailConfig.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/config/MvcConfig.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/domain/Message.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/Controller/RegistrationController.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/repos/UserRepo.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/Controller/ControllerUtils.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/config/WebSecurityConfig.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/repos/MessageRepo.java
+/Users/1/Desktop/Project/src/main/java/com/projectcollege/GreetingsController/service/MailSender.java

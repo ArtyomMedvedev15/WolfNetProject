@@ -1,0 +1,16 @@
+com/projectcollege/GreetingsController/Controller/RegistrationController.class
+com/projectcollege/GreetingsController/Application.class
+com/projectcollege/GreetingsController/Controller/UserController.class
+com/projectcollege/GreetingsController/domain/Message.class
+com/projectcollege/GreetingsController/Controller/ControllerUtils.class
+com/projectcollege/GreetingsController/config/MailConfig.class
+com/projectcollege/GreetingsController/config/WebSecurityConfig.class
+com/projectcollege/GreetingsController/repos/UserRepo.class
+com/projectcollege/GreetingsController/service/UserService.class
+com/projectcollege/GreetingsController/config/MvcConfig.class
+com/projectcollege/GreetingsController/domain/Role.class
+com/projectcollege/GreetingsController/Controller/MainController.class
+com/projectcollege/GreetingsController/repos/MessageRepo.class
+com/projectcollege/GreetingsController/domain/dto/CaptchaResponseDto.class
+com/projectcollege/GreetingsController/service/MailSender.class
+com/projectcollege/GreetingsController/domain/User.class
