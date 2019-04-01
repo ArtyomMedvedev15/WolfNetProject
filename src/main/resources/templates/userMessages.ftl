@@ -17,7 +17,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">
-                            <h4 class="card-title">Subscriptions</h4>
+                            <h4 class="card-title">Subscriptions:</h4>
                         </div>
                         <h3 class="card-text">
                             <a href="/user/subscriptions/${userChannel.id}/list">${subscriptionsCount}</a>
@@ -29,7 +29,7 @@
                 <div class="card">
                     <div class="card-body">
                         <div class="card-title">
-                            <h4 class="card-title">Subscribers</h4>
+                            <h4 class="card-title">Subscribers:</h4>
                         </div>
                         <h3 class="card-text">
                             <a href="/user/subscribers/${userChannel.id}/list">${subscribersCount}</a>

@@ -1,0 +1,35 @@
+.btn-oval {
+    display: inline-block;
+    width: 120px;
+    height: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-family: "DejaVu Sans Condensed", serif;
+    background: linear-gradient(#89c13e, #599c02);
+    background-color: #6fad1d;
+    border-radius: 35px;
+    border: 1px solid #579a00;
+    position: relative;
+    outline: none;
+}
+.btn-oval:before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+     z-index: -1;
+    border-radius: 50px;
+ }
+.btn-oval:hover {
+    background: linear-gradient(#97d444, #65ad07);
+
+}
+.btn-oval:active {
+    background: linear-gradient(#83bb37, #599c02);
+     padding: 1px 0 0 1px;
+}
