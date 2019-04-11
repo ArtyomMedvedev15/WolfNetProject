@@ -1,7 +1,7 @@
  <#macro login path isRegistredform>
      <form action="${path}" method="post">
          <div class="form-group" id="fonty">
-             <label class="col-sm2 col-form-label"> User Name : </label>
+             <label class="col-sm2 col-form-label"> <h5 id="">User Name:</h5> </label>
              <div class="col-sm-6">
              <input type="text" name="username" placeholder="User name" value="<#if user??>${user.username}</#if>"
               class="form-control ${(usernameError??)?string('is-invalid', '')}"/>
@@ -15,7 +15,7 @@
          </div>
          <div class="form-group" id="fonty">
              <label class="col-sm2 col-form-label">
-                 Password:
+                 <h5> Password:</h5>
              </label>
              <div class="col-sm-6">
              <input type="password" class="form-control ${(passwordError??)?string('is-invalid', '')}"
