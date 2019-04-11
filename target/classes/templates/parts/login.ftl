@@ -1,6 +1,6 @@
  <#macro login path isRegistredform>
      <form action="${path}" method="post">
-         <div class="form-group">
+         <div class="form-group" id="fonty">
              <label class="col-sm2 col-form-label"> User Name : </label>
              <div class="col-sm-6">
              <input type="text" name="username" placeholder="User name" value="<#if user??>${user.username}</#if>"
@@ -13,7 +13,7 @@
              <small class="form-text text-muted">We'll never share your email with anyone else.</small>
              </div>
          </div>
-         <div class="form-group">
+         <div class="form-group" id="fonty">
              <label class="col-sm2 col-form-label">
                  Password:
              </label>
@@ -29,7 +29,7 @@
              </div>
          </div>
          <#if isRegistredform>
-             <div class="form-group">
+             <div class="form-group" id="fonty">
                  <label class="col-sm2 col-form-label">
                      Password:
                  </label>
@@ -48,7 +48,7 @@
                  <label class="col-sm2 col-form-label">
                      Email:
                  </label>
-                 <div class="col-sm-6">
+                 <div class="col-sm-6" id="fonty">
                      <input type="email" class="form-control ${(emailError??)?string('is-invalid', '')}"
                             value="<#if user??>${user.email}</#if>"
                             placeholder="some@some.com" name="email"/>
@@ -69,15 +69,15 @@
              </div>
          </#if>
          <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-        <#if !isRegistredform><a class="btn btn-oval" href="/registration">Add new </a></#if>
-         <button type="submit" class="btn btn-oval"><#if isRegistredform>Create <#else >Sign in</#if></button>
+        <#if !isRegistredform><a id="fonty" class="btn btn-oval" href="/registration">Add new </a></#if>
+         <button id="fonty" type="submit" class="btn btn-oval"><#if isRegistredform>Create <#else >Sign in</#if></button>
      </form>
  </#macro>
 
  <#macro logout>
      <form action="/logout" method="post">
          <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-         <button type="submit"  class="btn btn-oval">
+         <button type="submit" id="fonty"  class="btn btn-oval">
              <#if user??> Sign out <#else> Log in</#if>
          </button>
      </form>

@@ -22,22 +22,51 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
         <style>
-            body{
-                background-image: url("/static/image/BgforMessages.jpg");
-                background-size: cover;
-                background-repeat: no-repeat;
+            .btn-oval {
+                display: inline-block;
+                width: 110px;
+                height: 40px;
+                box-sizing: border-box;
+                text-align: center;
+                color: #fff;
+                text-decoration: none;
                 font-family: "DejaVu Sans Condensed", serif;
+                background: linear-gradient(#4962d6, #6f81d6);
+                background-color: #6f81d6;
+                border-radius: 35px;
+                border: 1px solid #6f81d6;
+                position: relative;
+                outline: none;
+            }
+            .btn-oval:before {
+                content: "";
+                position: absolute;
+                top: -10px;
+                left: -10px;
+                width: 100%;
+                height: 100%;
+                padding: 10px;
+                z-index: -1;
+                border-radius: 50px;
+            }
+            .btn-oval:hover {
+                background: linear-gradient(#4962d6, #6f81d6);
+
+            }
+            .btn-oval:active {
+                background: linear-gradient(#6f81d6, #6f81d6);
+                padding: 1px 0 0 1px;
             }
         </style>
-    </head>
+     </head>
     <body>
     <div id="wrapper">
     <div>
         <#include "navbar.ftl"/>
     </div>
 
-    <div class="row">
-        <div class="col-md-12">
+    <div class="row" id="fonty">
+        <div class="col-md-12" id="fonty">
             <h1>WolfNet</h1>
             <h2><#include "Animation.ftl"/></h2>
             <h2 class="subtitle"> Hello dear user, we greet you on our platform</h2>
@@ -47,7 +76,7 @@
             <h1 > Welcome!</h1>
         </div>
     </div>
-        <div>
+        <div id="fonty">
             <h3 id="whiteText">Contact Us</h3>
             <div id="containerIntro">
                  <span>

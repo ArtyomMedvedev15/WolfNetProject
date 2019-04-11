@@ -20,17 +20,17 @@
         <script src='https://www.google.com/recaptcha/api.js'></script>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.6/prefixfree.min.js"></script>
         <style>
-        body{
-        background-image: url("/static/image/BgforMessages.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        font-family: "DejaVu Sans Condensed", serif;
+        body {
+            background-image: url("/static/image/BgforMessages.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
         }
+
         </style>
     </head>
-    <body>
+    <body id="fonty">
     <#include "navbar.ftl"/>
-     <div class="container mt-5" >
+     <div class="container mt-5" id="fonty">
         <#nested>
      </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

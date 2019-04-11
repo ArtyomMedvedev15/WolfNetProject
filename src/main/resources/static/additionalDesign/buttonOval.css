@@ -2,7 +2,11 @@ body{
     background-image: url("/static/image/BgforMessages.jpg");
     background-size: cover;
     background-repeat: no-repeat;
- }
+}
+
+#fonty{
+    font-family: "DejaVu Sans Condensed", serif;
+}
 #containerIntro h3,
 #containerIntro p {
     display: inline;
@@ -24,10 +28,10 @@ body{
     color: #fff;
     text-decoration: none;
     font-family: "DejaVu Sans Condensed", serif;
-    background: linear-gradient(#80DEEA, #26C6DA);
-    background-color: #80DEEA;
+    background: linear-gradient(#4962d6, #6f81d6);
+    background-color: #6f81d6;
     border-radius: 35px;
-    border: 1px solid #80DEEA;
+    border: 1px solid #6f81d6;
     position: relative;
     outline: none;
 }
@@ -43,11 +47,11 @@ body{
     border-radius: 50px;
 }
 .btn-oval:hover {
-    background: linear-gradient(#80DEEA, #26C6DA);
+    background: linear-gradient(#4962d6, #6f81d6);
 
 }
 .btn-oval:active {
-    background: linear-gradient(#80DEEA, #26C6DA);
+    background: linear-gradient(#6f81d6, #6f81d6);
     padding: 1px 0 0 1px;
 }
 table {

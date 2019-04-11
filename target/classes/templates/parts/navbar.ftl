@@ -1,16 +1,16 @@
 <#include "security.ftl">
 <#import "login.ftl" as l>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="fonty">
     <a class="navbar-brand" href="#">
-        <img src="/static/image/wolf.png" width="30" height="30" class="d-inline-block align-top" alt=""/>
+        <img src="/static/image/LogoNew.jpg" width="30" height="30" class="d-inline-block align-top" alt=""/>
         WolfNet
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="fonty">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
                 <a class="nav-link" href="/">Home</a>
@@ -35,7 +35,7 @@
             </#if>
         </ul>
 
-        <div class="navbar-text mr-3"><#if user??> <h5>${name}</h5> <#else>Please, login</#if></div>
+        <div class="navbar-text mr-3" id="fonty"><#if user??> <h5>${name}</h5> <#else>Please, login</#if></div>
         <@l.logout />
     </div>
 </nav>
