@@ -17,6 +17,9 @@ body{
     color: white;;
 }
 #whiteText{
+    color: white;
+}
+#blackText{
     color: black;
 }
 .btn-oval {

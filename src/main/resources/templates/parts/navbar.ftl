@@ -13,24 +13,24 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" id="fonty">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="/"><h5><i class="fas fa-home"></i></h5></a>
             </li>
             <#if user??>
                 <li class="nav-item">
-                    <a class="nav-link" href="/main">Messages</a>
+                    <a class="nav-link" href="/main"><h5><i class="fas fa-sms"></i></h5></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user-messages/${currentUserId}">My messages</a>
+                    <a class="nav-link" href="/user-messages/${currentUserId}"><h5><i class="fas fa-user-alt"></i></h5></a>
                 </li>
             </#if>
             <#if isAdmin>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user">User list</a>
+                    <a class="nav-link" href="/user"><h5><i class="far fa-list-alt"></h5></i></a>
                 </li>
             </#if>
             <#if user??>
                 <li class="nav-item">
-                    <a class="nav-link" href="/user/profile">Profile</a>
+                    <a class="nav-link" href="/user/profile"><h5> <i class="fas fa-user-cog"></i></h5></a>
                 </li>
             </#if>
         </ul>

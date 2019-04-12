@@ -11,7 +11,7 @@
                  </ol>
                  <div class="carousel-inner">
                      <div class="carousel-item active">
-                         <img class="d-block w-100" src="/static/image/background.jpg" alt="Первый слайд">
+                         <img class="d-block w-100" src="/static/image/firstSlide.jpg" alt="Первый слайд">
                      </div>
                      <div class="carousel-item">
                          <img class="d-block w-100" src="/static/image/background.jpg" alt="Второй слайд">
