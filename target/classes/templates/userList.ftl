@@ -8,6 +8,8 @@
         <tr>
             <th>Name</th>
             <th>Role</th>
+            <th>Active</th>
+            <th>Online</th>
          </tr>
         </thead>
         <tbody>
@@ -15,7 +17,9 @@
             <tr>
                 <td>${user.username}</td>
                 <td><#list user.roleSet as role>${role}<#sep>, </#list></td>
-             </tr>
+                <td><#if user.active>Active<#else>Not Active</#if></td>
+                <td>${princ}</td>
+            </tr>
         </#list>
         </tbody>
     </table>

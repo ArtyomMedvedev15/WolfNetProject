@@ -28,7 +28,7 @@
 
         </style>
     </head>
-    <body id="fonty">
+    <body>
     <#include "navbar.ftl"/>
      <div class="container-fluid mt-5">
         <#nested>
