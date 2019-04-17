@@ -1,6 +1,6 @@
 <div class="form-group">
 
-    <a class="btn-oval"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-primary"  data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Editor
      </a>
 

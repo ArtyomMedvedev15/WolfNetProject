@@ -1,3 +1,3 @@
- <#import "parts/helPg.ftl" as b>
- <#import "parts/hellopageTest.ftl" as t>
+
+ <#import "parts/hellopage.ftl" as t>
   <@t.HelloUsers/>

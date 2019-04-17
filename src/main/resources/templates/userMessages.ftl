@@ -4,6 +4,7 @@
 <@c.page>
 
 
+    <h2 class="funny-title section-title">Users publications:</h2>
 
     <#if !isCurrentUser>
         <#if isSubscriber>
