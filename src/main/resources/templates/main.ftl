@@ -2,7 +2,9 @@
 
 
 <@c.page>
-     <div class="form-row">
+    <h2 class="funny-title section-title">Publications:</h2>
+
+    <div class="form-row">
         <div class="form-group col-md-6">
             <form method="get" action="/main" class="form-inline">
                 <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag"/>

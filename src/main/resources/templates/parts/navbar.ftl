@@ -1,7 +1,7 @@
 <#include "security.ftl">
 <#import "login.ftl" as l>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light" id="fonty">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="fonty">
     <a class="navbar-brand" href="#">
         <img src="/static/image/Logotype.jpg" width="30" height="30" class="d-inline-block align-top" alt=""/>
         WolfNet

@@ -34,7 +34,7 @@
          <div class="colms col-lg-6">
      <form action="${path}" method="post">
          <div class="form-group" id="fonty">
-             <#if isRegistredform> <h5>Username:</h5> <#else><h3>Input your login and password</h3></#if>
+             <#if isRegistredform> <h5>Username:</h5> <#else><h3 class="funny-title section-title">Input your login and password</h3></#if>
               <div class="col-sm-6">
              <input type="text" name="username" placeholder="User name" value="<#if user??>${user.username}</#if>"
               class="form-control ${(usernameError??)?string('is-invalid', '')}"/>

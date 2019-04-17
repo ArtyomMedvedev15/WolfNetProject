@@ -13,7 +13,6 @@
         </#if>
     </#if>
     <div class="container-fluid">
-
         <div class="row">
             <div class="col-lg-3">
             <div class="card border-info mb-3" style="width: 18rem;">
@@ -24,13 +23,11 @@
             </div>
             </div>
 
-
-
             <div class="col-lg-3">
                 <div class="card bg-secondary mb-3" id="whiteText">
                     <div class="card-body">
                         <div class="card-title">
-                            <h4 class="card-title">Subscriptions:</h4>
+                            <h4 class="funny-title section-title">Subscriptions:</h4>
                         </div>
                         <h3 class="card-text">
                             <a id="whiteText" href="/user/subscriptions/${userChannel.id}/list">${subscriptionsCount}</a>
@@ -39,19 +36,23 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <div class="card">
+                <div class="card bg-secondary mb-3" id="whiteText"">
                     <div class="card-body">
                         <div class="card-title">
-                            <h4 class="card-title">Subscribers:</h4>
+                            <h4 class="funny-title section-title">Subscribers:</h4>
                         </div>
                         <h3 class="card-text">
-                            <a href="/user/subscribers/${userChannel.id}/list">${subscribersCount}</a>
+                            <a id="whiteText" href="/user/subscribers/${userChannel.id}/list">${subscribersCount}</a>
                         </h3>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <#include "parts/messagesEdit.ftl">
+            </div>
+        </div>
     </div>
-    <#include "parts/messagesEdit.ftl">
     <#include "parts/messageList.ftl">
 </@c.page>
