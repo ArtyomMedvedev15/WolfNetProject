@@ -1,7 +1,7 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-    <h2 class="funny-title section-title">Profile settings</h2>
+    <h2 class="funny-title">Profile settings</h2>
 
     <div class="container-fluid">
 
