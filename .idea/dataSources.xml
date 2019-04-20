@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="WolfDataBaseSystem@localhost" uuid="211cf1f5-b10e-4f75-8239-9c7457b15220">
+    <data-source source="LOCAL" name="TestConnection@localhost" uuid="49cee63b-3653-4bd9-9d18-ebafd8fa3f04">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/WolfDataBaseSystem</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/TestConnection</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />

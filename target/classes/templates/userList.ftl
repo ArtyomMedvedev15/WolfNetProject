@@ -1,9 +1,9 @@
 <#import "parts/common.ftl" as c>
 <@c.page>
 
-    List of users
+ <h2 class="funny-title section-title">List of users</h2>
 
-    <table cellspacing="0">
+    <table cellspacing="0" id="blackText">
         <thead>
         <tr>
             <th>Name</th>
