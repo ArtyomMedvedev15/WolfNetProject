@@ -6,13 +6,6 @@
 
     <h2 class="funny-title">Users publications:</h2>
 
-    <#if !isCurrentUser>
-        <#if isSubscriber>
-            <a class="btn btn-info" href="/user/unsubscribe/${userChannel.id}">Unsubscribe</a>
-        <#else>
-            <a class="btn btn-info" href="/user/subscribe/${userChannel.id}">Subscribe</a>
-        </#if>
-    </#if>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
@@ -48,12 +41,18 @@
                     </div>
                 </div>
             </div>
+        <div class="col-lg-3">
+            <#if !isCurrentUser>
+                <#if isSubscriber>
+                    <a class="btn btn-info" href="/user/unsubscribe/${userChannel.id}">Unsubscribe</a>
+                <#else>
+                    <a class="btn btn-info" href="/user/subscribe/${userChannel.id}">Subscribe</a>
+                </#if>
+            </#if>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <#include "parts/messagesEdit.ftl">
-            </div>
         </div>
-    </div>
+
+
+    <#include "parts/messagesEdit.ftl">
     <#include "parts/messageList.ftl">
 </@c.page>
