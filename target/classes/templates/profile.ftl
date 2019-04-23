@@ -1,7 +1,21 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-    <h5>${username}</h5>
+    <h2 class="funny-title">Profile settings</h2>
+
+    <div class="container-fluid">
+
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="card border-info mb-3" style="width: 18rem;">
+                <h2 class="funny-title section-title">${username}</h2>
+                <div class="card-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
     ${message?ifExists}
     <form method="post">
         <div class="form-group">
@@ -21,6 +35,6 @@
                 </div>
             </div>
          <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-         <button type="submit" class="btn btn-primary">Save</button>
+         <button type="submit" class="btn-oval">Save</button>
     </form>
 </@c.page>

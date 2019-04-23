@@ -1,13 +1,25 @@
 <#import "parts/common.ftl" as c>
 <@c.page>
-    <div>${type}
+    <div><h2 class="funny-title section-title">${type}</h2>
     </div>
-    <ul class="list-group">
+    <table class="list-group" id="blackText">
+        <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+        </thead>
+        <tbody>
         <#list users as user >
-        <li class="list-group-item">
+            <tr>
+                <td>
+
             <a href="/user-messages/${user.id}">${user.getUsername()}</a>
-        </li>
+
+                </td>
+            </tr>
         </#list>
-    </ul>
+        </tbody>
+    </table>
+
 
 </@c.page>
