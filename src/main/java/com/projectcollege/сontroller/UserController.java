@@ -35,6 +35,7 @@ import java.util.Map;
                                Model model){
         model.addAttribute("user",user);
         model.addAttribute("roles", Role.values());
+        model.addAttribute("userId",user.getId());
 
         return "userEdit";
 
