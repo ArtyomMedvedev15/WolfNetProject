@@ -1,6 +1,6 @@
 <#import "parts/common.ftl" as c>
 <@c.page>
-    <div><h2 class="funny-title section-title">${type}</h2>
+    <div><h2 id="whiteText" class="funny-title section-title">${type}</h2>
     </div>
     <table class="list-group" id="blackText">
         <thead>

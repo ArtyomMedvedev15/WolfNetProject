@@ -1,7 +1,7 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-    <h2 class="funny-title">Profile settings</h2>
+    <h2 id="whiteText" class="funny-title">Profile settings</h2>
 
     <div class="container-fluid">
 
@@ -23,7 +23,7 @@
                 Password:
             </label>
             <div class="col-sm-6">
-                <input type="password" class="form-control" placeholder="Password" name="password"/>
+                <input type="password" autofocus required class="form-control" placeholder="Password" name="password"/>
             </div>
         </div>
              <div class="form-group">
@@ -31,7 +31,7 @@
                      Email:
                 </label>
                 <div class="col-sm-6">
-                    <input type="email" class="form-control" placeholder="some@some.com" name="email" value="${email!''}"/>
+                    <input type="email" autofocus required class="form-control" placeholder="some@some.com" name="email" value="${email!''}"/>
                 </div>
             </div>
          <input type="hidden" name="_csrf" value="${_csrf.token}"/>

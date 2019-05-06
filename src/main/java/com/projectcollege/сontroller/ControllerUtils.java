@@ -1,4 +1,4 @@
-package com.projectcollege.Controller;
+package com.projectcollege.сontroller;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

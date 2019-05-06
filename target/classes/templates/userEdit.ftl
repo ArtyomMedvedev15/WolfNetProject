@@ -1,7 +1,7 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-    User Page
+    <h2 id="whiteText" class="funny-title section-title">User edit page:</h2>
     <form method="post" action="/user">
         <input type="text" name="username" value="${user.username}"/>
         <#list roles as role >

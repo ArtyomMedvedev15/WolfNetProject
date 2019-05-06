@@ -2,12 +2,12 @@
 
 
 <@c.page>
-    <h2 class="funny-title">Publications:</h2>
+    <h2 id="whiteText" class="funny-title">Publications:</h2>
 
     <div class="form-row">
         <div class="form-group col-md-6">
             <form method="get" action="/main" class="form-inline">
-                <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag"/>
+                <input type="text" autofocus required name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag"/>
                 <button type="submit" class="btn btn-primary ml-2">Search</button>
             </form>
         </div>

@@ -1,4 +1,4 @@
-package com.projectcollege.Controller;
+package com.projectcollege.сontroller;
 
 import com.projectcollege.domain.User;
 import com.projectcollege.domain.dto.CaptchaResponseDto;
