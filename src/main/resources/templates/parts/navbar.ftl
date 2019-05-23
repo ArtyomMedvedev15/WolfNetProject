@@ -10,9 +10,9 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="fonty">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" id="whiteText">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item" id="whiteText">
                 <a class="nav-link" href="/"><h5><i class="fas fa-home"></i></h5></a>
             </li>
             <#if user??>
